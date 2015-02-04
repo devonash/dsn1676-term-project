@@ -11,3 +11,18 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.banner {
+    background-color: #76dcf4;
+    width: 100%;
+    height: 100%;
+    padding: 20em;
+}
+
+.toaster {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 100px;
+    top: 200px;
+}
