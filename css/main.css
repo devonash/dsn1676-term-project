@@ -24,6 +24,7 @@ body {
     height: 400px;
     width: 400px;
     top: 400px;
+    left: 2em;
     z-index: 2;
 }
 
@@ -31,9 +32,10 @@ body {
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 158px;
+    left: 190px;
     top: 420px;
     z-index: 1;
+    animation: toast-move 5s linear forwards;
 }
 
 .banner {
@@ -52,8 +54,8 @@ body {
     position:absolute;
     width: 50px;
     height: 55px;
-    top: 500px;
-    left: 352px;
+    top: 580px;
+    left: 400px;
 }
 
 h1 {
@@ -71,4 +73,35 @@ h2 {
     margin-top: 0;
     padding-left: 1em;
 }
+
+@keyframes toast-move {
+    
+    0% {
+        transform: translateY(0px);
+    }
+    
+    
+    20% {
+        transform: translateY(-10px);
+    }
+    
+    30% {
+        transform: translateY(-80px);
+    }
+    
+    40% {
+        transform: translateY(-100px);
+    }
+    
+    50% {
+        transform: translateY(-120px);
+    
+    60% {
+        transform: translateX(100px);
+    }
+        
+    
+}
+    
+    
 
