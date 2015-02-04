@@ -12,6 +12,13 @@ html {
     box-sizing: inherit;
 }
 
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
 .toaster {
     position: relative;
     width: 500px;
@@ -34,4 +41,4 @@ html {
     background-color: #76dcf4;
     padding: 20em;
 }
-    
+
