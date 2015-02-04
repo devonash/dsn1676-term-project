@@ -23,8 +23,8 @@ body {
 .toaster {
     position: relative;
     width: 500px;
-    height: 500px;
-    left: 10px;
+    height: 900px;
+    left: 100px;
     top: 2px;
     z-index: 2;
 }
@@ -33,13 +33,16 @@ body {
     position: absolute;
     width: 190px;
     height: 190px;
-    left: 540px;
-    top: 350px;
+    left: 300px;
+    top: 220px;
     z-index: 1;
 }
 
 .banner {
     background-color: #76dcf4;
-    padding: 20em;
+    width: 1500px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0;
 }
 
