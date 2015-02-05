@@ -93,6 +93,12 @@ img {
     animation: down-rotate 5s linear forwards;
 }
 
+.fulltoaster {
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+
 @-webkit-keyframes toast-move {
     
     0% {
