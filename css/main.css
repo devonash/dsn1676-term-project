@@ -106,9 +106,17 @@ img {
     }
     
     .down {
-        top: 1000px;
+        top: 900px;
     }
     
+    .breakfast {
+        font-size: 800%;
+    }
+    
+    .subtitle {
+        font-size: 400%;
+    }
+        
 }
 
 @-webkit-keyframes toast-move {
