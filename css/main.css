@@ -99,19 +99,6 @@ img {
     position: relative;
 }
 
-/*@media only screen and (min-width: 25em) {
-    
-    .fulltoaster {
-        top: 300px;
-    }
-    
-    .down {
-        top: 450px;
-        width: 100%;
-    }
-
-}*/
-
 @-webkit-keyframes toast-move {
     
     0% {
