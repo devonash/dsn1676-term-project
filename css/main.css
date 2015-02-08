@@ -45,7 +45,7 @@ img {
 }
 
 .banner {
-    background-image: url(../img/background-trial.svg);
+    background-image: url(../img/background-trial-longer.svg);
     height: 100vh;
     position: relative;
     overflow: hidden;
