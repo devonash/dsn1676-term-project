@@ -99,7 +99,7 @@ img {
     position: relative;
 }
 
-@media only screen and (min-width: 15em) {
+@media only screen and (min-width: 25em) {
     
     .fulltoaster {
         top: 300px;
@@ -108,17 +108,8 @@ img {
     .down {
         top: 450px;
         width: 100%;
-        height: 180px;
     }
-    
-    .breakfast {
-        font-size: 800%;
-    }
-    
-    .subtitle {
-        font-size: 360%;
-    }
-        
+
 }
 
 @-webkit-keyframes toast-move {
