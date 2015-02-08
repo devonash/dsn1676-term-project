@@ -102,11 +102,13 @@ img {
 @media only screen and (min-width: 25em) {
     
     .fulltoaster {
-        top: 450px;
+        top: 400px;
+        position: relative;
     }
     
     .down {
         top: 450px;
+        position: absolute;
     }
     
     .breakfast {
