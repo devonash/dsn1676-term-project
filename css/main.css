@@ -104,11 +104,14 @@ img {
     .fulltoaster {
         top: 400px;
         position: relative;
+        display: block;
     }
     
     .down {
         top: 450px;
+        height 100px;
         position: absolute;
+        display: block;
     }
     
     .breakfast {
