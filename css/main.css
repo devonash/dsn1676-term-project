@@ -103,14 +103,12 @@ img {
     
     .fulltoaster {
         top: 300px;
-        width: 100%;
-        height: 400px;
     }
     
     .down {
         top: 450px;
         width: 100%;
-        height: 200px;
+        height: 180px;
     }
     
     .breakfast {
