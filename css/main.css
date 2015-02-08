@@ -99,6 +99,14 @@ img {
     position: relative;
 }
 
+@media only screen and (min-width: 25em) {
+    
+    .fulltoaster {
+        top: 500px;
+    }
+    
+}
+
 @-webkit-keyframes toast-move {
     
     0% {
