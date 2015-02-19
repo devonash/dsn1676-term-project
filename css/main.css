@@ -41,7 +41,7 @@ img {
     height: 4em;
     width: 4em;
     left:130px;
-    top: 120px;
+    top: 115px;
     z-index: 1;
     -webkit-animation: toast-move 5s linear forwards infinite;
     animation: toast-move 5s linear forwards infinite;
