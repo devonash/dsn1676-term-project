@@ -129,6 +129,10 @@ img {
         left: 700px;
     }
     
+    .breakfast {
+        font-size: 300%;
+    }   
+    
 }
 
 @-webkit-keyframes toast-move {
