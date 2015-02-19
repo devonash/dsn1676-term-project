@@ -39,7 +39,7 @@ img {
     height: 8em;
     width: 8em;
     left:150px;
-    top: 230px;
+    top: 100px;
     z-index: 1;
     -webkit-animation: toast-move 5s linear forwards infinite;
     animation: toast-move 5s linear forwards infinite;
