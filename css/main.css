@@ -104,6 +104,33 @@ img {
     position: relative;
 }
 
+@media only screen and (min-width: 25em) {
+    
+    .toaster {
+        left: 8px;
+        width: 100%;
+        top: 300px;
+    }
+    
+    .toast {
+        width: 100%;
+        left: 10px;
+        top: 300px;
+        height: 5em;
+    }
+    
+    .trigger {
+        left: 830px;
+        top: 350px;
+    }
+    
+    .down {
+        top: 650px;
+        left: 700px;
+    }
+    
+}
+
 @-webkit-keyframes toast-move {
     
     0% {
