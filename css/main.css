@@ -38,8 +38,8 @@ img {
     position: absolute;
     height: 8em;
     width: 8em;
-    /*left: 5px;
-    top: 230px;*/
+    left:150px;
+    top: 230px;
     z-index: 1;
     -webkit-animation: toast-move 5s linear forwards infinite;
     animation: toast-move 5s linear forwards infinite;
