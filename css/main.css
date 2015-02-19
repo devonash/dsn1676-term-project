@@ -40,7 +40,7 @@ img {
     position: absolute;
     height: 4em;
     width: 4em;
-    left:130px;
+    left:125px;
     top: 115px;
     z-index: 1;
     -webkit-animation: toast-move 5s linear forwards infinite;
@@ -60,8 +60,9 @@ img {
 .trigger {
     position:absolute;
     height: 1em;
+    width: 1em;
     top: 100px;
-    left: 165px;
+    left: 100px;
 }
 
 .toaster:hover {
