@@ -37,6 +37,7 @@ img {
 .toast {
     position: absolute;
     height: 8em;
+    width: 8em;
     /*left: 5px;
     top: 230px;*/
     z-index: 1;
