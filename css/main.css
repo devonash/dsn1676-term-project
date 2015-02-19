@@ -26,10 +26,10 @@ img {
 
 .toaster {
     position: absolute;
-    height: 110px;
-    width: 110px;
+    height: 150px;
+    width: 150px;
     top: 130px;
-    left: 120px;
+    left: 100px;
     z-index: 2;
     -webkit-transform: translateX(0px);
     -webkit-transform-origin: bottom center;
