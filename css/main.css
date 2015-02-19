@@ -36,9 +36,9 @@ img {
 
 .toast {
     position: absolute;
-    height: 2em;
-    width: 2em;
-    left:150px;
+    height: 3em;
+    width: 3em;
+    left:130px;
     top: 100px;
     z-index: 1;
     -webkit-animation: toast-move 5s linear forwards infinite;
