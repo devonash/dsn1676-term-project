@@ -68,7 +68,7 @@ img {
 .breakfast {
     text-align: center;
     margin: 0;
-    font-size: 500%;
+    font-size: 100%;
     color: black;
     transition: color 500ms linear;
 }
