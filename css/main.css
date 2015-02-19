@@ -36,10 +36,9 @@ img {
 
 .toast {
     position: absolute;
-    /*height: 8em;
+    height: 8em;
     left: 5px;
-    top: 230px;*/
-    width: 50%;
+    top: 230px;
     z-index: 1;
     -webkit-animation: toast-move 5s linear forwards infinite;
     animation: toast-move 5s linear forwards infinite;
@@ -94,11 +93,11 @@ img {
     animation: down-rotate 5s linear forwards;
 }
 
-.fulltoaster {
+/*.fulltoaster {
     width: 100%;
     margin: 0 auto;
     position: relative;
-}
+}*/
 
 @-webkit-keyframes toast-move {
     
