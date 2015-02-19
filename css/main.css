@@ -27,7 +27,7 @@ img {
 .toaster {
     position: absolute;
     height: 250px;
-    top: 250px;
+    top: 100px;
     z-index: 2;
     -webkit-transform: translateX(0px);
     -webkit-transform-origin: bottom center;
@@ -36,9 +36,9 @@ img {
 
 .toast {
     position: absolute;
-    height: 8em;
+    /*height: 8em;
     left: 5px;
-    top: 230px;
+    top: 230px;*/
     z-index: 1;
     -webkit-animation: toast-move 5s linear forwards infinite;
     animation: toast-move 5s linear forwards infinite;
@@ -93,11 +93,11 @@ img {
     animation: down-rotate 5s linear forwards;
 }
 
-/*.fulltoaster {
+.fulltoaster {
     width: 100%;
     margin: 0 auto;
     position: relative;
-}*/
+}
 
 @-webkit-keyframes toast-move {
     
