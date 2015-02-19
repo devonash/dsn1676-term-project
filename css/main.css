@@ -26,10 +26,10 @@ img {
 
 .toaster {
     position: absolute;
-    height: 180px;
-    width: 180px;
+    height: 165px;
+    width: 165px;
     top: 130px;
-    left: 80px;
+    left: 70px;
     z-index: 2;
     -webkit-transform: translateX(0px);
     -webkit-transform-origin: bottom center;
@@ -38,8 +38,8 @@ img {
 
 .toast {
     position: absolute;
-    height: 3em;
-    width: 3em;
+    height: 4em;
+    width: 4em;
     left:130px;
     top: 100px;
     z-index: 1;
