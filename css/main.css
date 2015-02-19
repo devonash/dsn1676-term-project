@@ -26,8 +26,8 @@ img {
 
 .toaster {
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     top: 130px;
     left: 80px;
     z-index: 2;
