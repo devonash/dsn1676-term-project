@@ -49,7 +49,7 @@ img {
 
 .banner {
     background-image: url(../img/background-trial-longer.svg);
-    height: 100vh;
+    height: 60vh;
     position: relative;
     overflow: hidden;
     background-repeat: repeat-x;
@@ -132,6 +132,9 @@ img {
     .breakfast {
         font-size: 300%;
     }   
+    .banner {
+        height: 100vh;
+    }
     
 }
 
