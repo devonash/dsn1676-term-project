@@ -134,18 +134,17 @@ img {
 
 .pan-egg {
     position: relative;
-    padding-top: 70%;
+    padding-top: 75%;
     border: 1px solid green;
 }
 
 .steam-coffee {
-    padding-top: 70%;
     border: 1px solid red;
 }
 
 .spoon-bowl {
     position: relative;
-    padding-top: 50%;
+    padding-top: 65%;
     border: 1px solid blue;
 }
 
