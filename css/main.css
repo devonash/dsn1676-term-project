@@ -134,16 +134,27 @@ img {
 
 .pan-egg {
     position: relative;
-    padding-top: 56%;
+    padding-top: 70%;
     border: 1px solid green;
+}
+
+.steam-coffee {
+    padding-top: 70%;
+    border: 1px solid red;
+}
+
+.spoon-bowl {
+    position: relative;
+    padding-top: 50%;
+    border: 1px solid blue;
 }
 
 .egg {
     position: absolute;
     z-index: 10;
-    left: 0;
-    top: 0;
-    width: 75px;
+    left: 150px;
+    top: 30px;
+    width: 100px;
 }
 
 .pan {
@@ -151,12 +162,38 @@ img {
     z-index: 1;
     left: 0;
     top: 0;
+    width: 300px;
+}
+
+.steam {
+    left: 0;
+    top: 0;
     width: 100px;
+    display: block;
 }
 
 .coffee {
-    position: absolute;
     width: 12em;
+    left: 0;
+    top: 0;
+    width: 200px;
+    display: block;
+}
+
+.spoon {
+    position: absolute;
+    z-index: 10;
+    left: 30px;
+    top: -5px;
+    width: 50px;
+}
+
+.bowl {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 20px;
+    width: 300px;
 }
 
 
@@ -182,7 +219,11 @@ img {
     
     .down {
         top: 650px;
-        /*left: 700px;*/
+        left: 700px;
+    }
+    
+    .down-arrow {
+        margin: 0 auto;
     }
     
     .breakfast {
