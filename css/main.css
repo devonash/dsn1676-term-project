@@ -62,7 +62,7 @@ img {
     height: 1em;
     width: 1em;
     top: 150px;
-    left: 225px;
+    right: 45px;
 }
 
 .toaster:hover {
@@ -98,11 +98,67 @@ img {
     animation: down-rotate 5s linear forwards;
 }
 
+.down-arrow {
+    margin: 0 auto;
+}
+
 .fulltoaster {
-    width: 100%;
+    width: 300px;
     margin: 0 auto;
     position: relative;
+    border: 5px solid red;
 }
+
+.toggle {
+    width: 3em;
+    margin: 1em;
+    position: absolute;
+}
+
+.navigation {
+    overflow: hidden;
+    max-height: 0;
+    background-color: green;
+    position: absolute;
+    top: 80px;
+    transition: all 1s linear;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.js-nav-open {
+    max-height: 15em;
+}
+
+.pan-egg {
+    position: relative;
+    padding-top: 56%;
+    border: 1px solid green;
+}
+
+.egg {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 75px;
+}
+
+.pan {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100px;
+}
+
+.coffee {
+    position: absolute;
+    width: 12em;
+}
+
 
 @media only screen and (min-width: 25em) {
     
@@ -120,13 +176,13 @@ img {
     }
     
     .trigger {
-        left: 830px;
         top: 350px;
+        right: 15px;
     }
     
     .down {
         top: 650px;
-        left: 700px;
+        /*left: 700px;*/
     }
     
     .breakfast {

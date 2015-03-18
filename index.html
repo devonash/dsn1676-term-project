@@ -9,9 +9,15 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/type.css" rel="stylesheet">
 </head>
-<body>   
-    
+<body>
+     
 <div class="banner">
+    <img class="toggle" src="img/bacon-toggle.svg" alt="toggle">
+    <nav class="navigation">
+        <ul>
+            <li><a href="#Types">Types of Breakfast</a></li>
+        </ul>
+    </nav>
     <h1 class="breakfast">Breakfast</h1>
     <h2 class="subtitle">The most important meal of the day</h2>
      <div class="fulltoaster">
@@ -19,8 +25,32 @@
         <img class="toast" src="img/toast.svg" alt="toast">
         <img class="trigger" src="img/trigger.svg" alt="trigger">
     </div> 
-    <img class="down" src="img/down-button.svg" alt="down arrow">
+    <div class="down-arrow">
+        <img class="down" src="img/down-button.svg" alt="down arrow">
+    </div>
 </div>
+    
+<main id="Types">
+    <div class="grid">
+        <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+            <div class="pan-egg">
+                <img class="egg" src="img/egg.svg" alt="egg">
+                <img class="pan" src="img/pan.svg" alt="pan">
+            </div>
+        </div>
+        <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+            <img class="steam" src="img/steam.svg" alt="steam">
+            <img class="coffee" src="img/coffee.svg" alt="coffee">
+            </div>
+        <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+            <img class="spoon" src="img/spoon.svg" alt="spoon">
+            <img class="bowl" src="img/bowl.svg" alt="bowl">
+        </div>
+    </div>
+</main>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/main.js"></script>
     
 </body>
 </html>
