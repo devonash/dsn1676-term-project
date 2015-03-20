@@ -160,7 +160,7 @@ img {
 }
 
 .pan {
-    position: absolute;
+
     z-index: 1;
     left: 0;
     top: 0;
@@ -193,6 +193,10 @@ img {
     z-index: 1;
     left: 0;
     top: 0;
+}
+
+.break {
+    position: relative;
 }
 
 
