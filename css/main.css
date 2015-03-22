@@ -147,6 +147,7 @@ a:link {
     width: 300px;
     height: 200px;
     right: 25px;
+    border: 1px solid red;
 }
 
 .steam {
@@ -191,7 +192,7 @@ a:link {
     background-size: cover;
     width: 340px;
     height: 300px;
-    margin: 0 auto 2em;
+    margin: 0 auto 0;
 }
 
 .three {
@@ -199,9 +200,10 @@ a:link {
     position: relative;
     background-repeat: none;
     background-size: cover;
-    width: 310px;
+    width: 280px;
     height: 270px;
-    margin: 1em auto 0;
+    margin: 0 auto 0;
+    border: 1px solid red;
 }
 
 .button {
@@ -214,6 +216,7 @@ a:link {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+    border: 1px solid blue;
     background-color: #76dcf4;
 }
 
@@ -231,38 +234,7 @@ a:link {
     animation: egg-fry 1s linear;
 }
 
-@keyframes egg-fry {
-    0% {
-        right: 0px;
-    }
-    10% {
-        left: 80px;
-    }
-    20% {
-        left: 10px;
-    }
-    40% {
-        right: 80px;
-    }
-    50% {
-        left: 80px;
-    }
-    60% {
-        left: 20px;
-    }
-    70% {
-        right: 20px;
-    }
-    80% {
-        top: 20px;
-    }
-    90% {
-        left: 80px;
-    }
-    100% {
-        right: 60px;
-    }
-}
+
 
 
 @media only screen and (min-width: 25em) {
@@ -301,6 +273,39 @@ a:link {
     }
 
     
+}
+
+@-webkit-keyframes egg-fry {
+    0% {
+        right: 0px;
+    }
+    10% {
+        left: 80px;
+    }
+    20% {
+        left: 10px;
+    }
+    40% {
+        right: 80px;
+    }
+    50% {
+        left: 80px;
+    }
+    60% {
+        left: 20px;
+    }
+    70% {
+        right: 20px;
+    }
+    80% {
+        top: 20px;
+    }
+    90% {
+        left: 80px;
+    }
+    100% {
+        right: 60px;
+    }
 }
 
 @-webkit-keyframes toast-move {
@@ -453,5 +458,37 @@ a:link {
     }
 }
 
+@keyframes egg-fry {
+    0% {
+        right: 0px;
+    }
+    10% {
+        left: 80px;
+    }
+    20% {
+        left: 10px;
+    }
+    40% {
+        right: 80px;
+    }
+    50% {
+        left: 80px;
+    }
+    60% {
+        left: 20px;
+    }
+    70% {
+        right: 20px;
+    }
+    80% {
+        top: 20px;
+    }
+    90% {
+        left: 80px;
+    }
+    100% {
+        right: 60px;
+    }
+}
 
     
