@@ -134,6 +134,10 @@ a:link {
     text-decoration: none;
 }
 
+a {
+    color: black;
+}
+
 .js-nav-open {
     max-height: 15em;
 }
