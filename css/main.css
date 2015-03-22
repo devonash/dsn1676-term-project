@@ -215,31 +215,31 @@ img {
 
 @keyframes egg-fry {
     0% {
-        right: 10px;
+        right: 0px;
     }
     10% {
-        left: 10px;
+        left: 80px;
     }
     20% {
-        left: 30px;
+        left: 100px;
     }
     40% {
-        right: 50px;
+        right: 80px;
     }
     50% {
         left: 100px;
     }
     60% {
-        left: 100px;
+        left: 20px;
     }
     70% {
-        left: 100px;
+        right: 70px;
     }
     80% {
-        right: 10px;
+        right: 20px;
     }
     90% {
-        left: 10px;
+        left: 80px;
     }
     100% {
         right: 60px;
