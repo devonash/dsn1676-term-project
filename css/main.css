@@ -147,7 +147,6 @@ a:link {
     width: 300px;
     height: 200px;
     right: 25px;
-    border: 1px solid red;
 }
 
 .steam {
@@ -203,7 +202,6 @@ a:link {
     width: 280px;
     height: 270px;
     margin: 0 auto 0;
-    border: 1px solid red;
 }
 
 .button {
@@ -216,7 +214,6 @@ a:link {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
-    border: 1px solid blue;
     background-color: #76dcf4;
 }
 
