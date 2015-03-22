@@ -182,7 +182,6 @@ a:link {
     width: 350px;
     height: 300px;
     margin: 0 auto 0;
-    
 }
 
 .two {
@@ -203,15 +202,19 @@ a:link {
     width: 310px;
     height: 270px;
     margin: 1em auto 0;
-    border: 1px solid red;
 }
 
 .button {
-    position: relative;
+    position: absolute;
     left: 145px;
     top: 300px;
     background-color: green;
     border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: #76dcf4;
 }
 
 .js-spoon-stir {
