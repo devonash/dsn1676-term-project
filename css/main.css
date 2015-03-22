@@ -272,7 +272,6 @@ a:link {
     
 }
 
-
 @-webkit-keyframes egg-fry {
     0% {
         right: 0px;
@@ -281,7 +280,7 @@ a:link {
         left: 20px;
     }
     20% {
-        left: 10px;
+        right: 10px;
     }
     40% {
         right: 50px;
@@ -461,13 +460,13 @@ a:link {
         right: 0px;
     }
     10% {
-        left: 20px;
+        right: 20px;
     }
     20% {
-        left: 10px;
+        right: 10px;
     }
     40% {
-        top: 50px;
+        right: 50px;
     }
     50% {
         left: 50px;
