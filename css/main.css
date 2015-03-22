@@ -133,70 +133,80 @@ img {
     max-height: 15em;
 }
 
-/*.pan-egg {
-    position: relative;
-    padding-top: 75%;
-    border: 1px solid green;
-    width: 300px;
-    margin: 0 auto;
-}
-
-.steam-coffee {
-    border: 1px solid red;
-}
-
-.spoon-bowl {
-    position: relative;
-    padding-top: 65%;
-    border: 1px solid blue;
-}*/
-
 .egg {
     position: absolute;
     z-index: 10;
     border: solid 1px;
-    left: 0;
-    top: 0;
+
+    background-image: url(../img/egg.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 400px;
+    height: 200px;
+    right: 25px;
 }
 
-.pan {
 
-    z-index: 1;
-    left: 0;
-    top: 0;
-}
 
 .steam {
     position: absolute;
     border: solid 1px;
     z-index: 10;
-    left: 0;
-    top: 0;
+    background-image: url(../img/steam.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+     width: 300px;
+    height: 200px;
+    top: 60px;
 }
 
-.coffee {
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 0;
-}
+
 
 .spoon {
     position: absolute;
     z-index: 10;
-    left: 0;
-    top: 0;
+      background-image: url(../img/spoon.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+     width: 300px;
+    height: 200px;
+    top: 20px;
 }
 
-.bowl {
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 0;
-}
 
 .break {
     position: relative;
+}
+
+.one {
+    background: transparent url("../img/bowl.svg") no-repeat center top;
+    position: relative;
+      background-repeat: none;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: 0 auto 0;
+    
+}
+
+.two {
+    background: transparent url("../img/coffee.svg") no-repeat center top;
+    position: relative;
+      background-repeat: none;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+     margin: 0 auto 0;
+}
+
+.three {
+    background: transparent url("../img/pan.svg") no-repeat center top;
+    position: relative;
+    background-repeat: none;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+     margin: 0 auto 0;
 }
 
 
@@ -234,6 +244,7 @@ img {
     .banner {
         height: 100vh;
     }
+
     
 }
 
