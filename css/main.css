@@ -144,7 +144,7 @@ a:link {
     background-image: url(../img/egg.svg);
     background-repeat: no-repeat;
     background-size:cover;
-    width: 400px;
+    width: 300px;
     height: 200px;
     right: 25px;
 }
@@ -158,6 +158,7 @@ a:link {
     width: 300px;
     height: 200px;
     top: 20px;
+    margin-top: 1em;
     opacity: 0;
     transition: all 200ms linear;
 }
@@ -191,7 +192,7 @@ a:link {
     background-size: cover;
     width: 340px;
     height: 300px;
-    margin: 0 auto 0;
+    margin: 0 auto 2em;
 }
 
 .three {
@@ -199,9 +200,18 @@ a:link {
     position: relative;
     background-repeat: none;
     background-size: cover;
-    width: 320px;
-    height: 320px;
+    width: 310px;
+    height: 270px;
     margin: 1em auto 0;
+    border: 1px solid red;
+}
+
+.button {
+    position: relative;
+    left: 145px;
+    top: 300px;
+    background-color: green;
+    border-radius: 10px;
 }
 
 .js-spoon-stir {
@@ -226,22 +236,22 @@ a:link {
         left: 80px;
     }
     20% {
-        left: 100px;
+        left: 10px;
     }
     40% {
         right: 80px;
     }
     50% {
-        left: 100px;
+        left: 80px;
     }
     60% {
         left: 20px;
     }
     70% {
-        right: 70px;
+        right: 20px;
     }
     80% {
-        right: 20px;
+        top: 20px;
     }
     90% {
         left: 80px;
