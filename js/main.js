@@ -7,6 +7,9 @@ var $spoon = $('.spoon');
 var $showHide = $('.button-show-hide');
 var $steam = $('.steam');
 
+var $btnFry = $('.button-fry');
+var $egg = $('.egg');
+
 $toggle.on('click', function () {
     $nav.toggleClass('js-nav-open');
 });
@@ -15,7 +18,7 @@ $btnStir.on('click', function () {
     $spoon.addClass('js-spoon-stir');
 });
 
-$spoon.on('webktiAnimationEnd animationend', function () {
+$spoon.on('webkitAnimationEnd animationend', function () {
     $spoon.removeClass('js-spoon-stir');
 });
 
@@ -25,4 +28,8 @@ $showHide.on('click', function () {
 
 $btnFry.on('click', function () {
     $egg.addClass('js-egg-fry');
+});
+
+$egg.on('webkitAnimationEnd animationend', function () {
+    $egg.removeClass('js-egg-fry');
 });

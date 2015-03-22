@@ -136,7 +136,6 @@ img {
 .egg {
     position: absolute;
     z-index: 10;
-    border: solid 1px;
     background-image: url(../img/egg.svg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -147,7 +146,6 @@ img {
 
 .steam {
     position: absolute;
-    border: solid 1px;
     z-index: 10;
     background-image: url(../img/steam.svg);
     background-repeat: no-repeat;
@@ -215,64 +213,36 @@ img {
     animation: egg-fry 1s linear;
 }
 
-
-@-webkit-keyframes egg-fry {
-    0% {
-        top: 50px;
-    }
-    20% {
-        top: 15px;
-    }
-    30% {
-        right: 25px;
-    }
-    50% {
-        top: 50px;
-    }
-    55% {
-        right: 50px;
-    }
-    60% {
-        top: 8px;
-    }
-    80% {
-        right: 70px;
-    }
-    90% {
-        top: 50px;
-    }
-    100% {
-        right: 80px;
-    }
-}
-
 @keyframes egg-fry {
     0% {
-        top: 50px;
+        right: 10px;
+    }
+    10% {
+        left: 10px;
     }
     20% {
-        top: 15px;
+        left: 30px;
     }
-    30% {
-        right: 25px;
-    }
-    50% {
-        top: 50px;
-    }
-    55% {
+    40% {
         right: 50px;
     }
+    50% {
+        left: 100px;
+    }
     60% {
-        top: 8px;
+        left: 100px;
+    }
+    70% {
+        left: 100px;
     }
     80% {
-        right: 70px;
+        right: 10px;
     }
     90% {
-        top: 50px;
+        left: 10px;
     }
     100% {
-        right: 80px;
+        right: 60px;
     }
 }
 
