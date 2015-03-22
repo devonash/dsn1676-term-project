@@ -107,7 +107,6 @@ img {
     width: 300px;
     margin: 0 auto;
     position: relative;
-    border: 5px solid red;
 }
 
 .toggle {
@@ -119,7 +118,7 @@ img {
 .navigation {
     overflow: hidden;
     max-height: 0;
-    background-color: green;
+    background-color: white;
     position: absolute;
     top: 80px;
     transition: all 1s linear;
@@ -127,6 +126,12 @@ img {
 
 .navigation li {
     list-style-type: none;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 .js-nav-open {
