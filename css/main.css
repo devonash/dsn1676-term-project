@@ -269,39 +269,6 @@ a:link {
     
 }
 
-@-webkit-keyframes egg-fry {
-    0% {
-        right: 0px;
-    }
-    10% {
-        left: 20px;
-    }
-    20% {
-        right: 10px;
-    }
-    40% {
-        right: 50px;
-    }
-    50% {
-        left: 50px;
-    }
-    60% {
-        left: 20px;
-    }
-    70% {
-        right: 20px;
-    }
-    80% {
-        top: 20px;
-    }
-    90% {
-        left: 50px;
-    }
-    100% {
-        right: 60px;
-    }
-}
-
 @-webkit-keyframes toast-move {
     
     0% {
@@ -371,6 +338,39 @@ a:link {
     }
     90% {
         left: 10px;
+    }
+    100% {
+        right: 60px;
+    }
+}
+
+@-webkit-keyframes egg-fry {
+    0% {
+        right: 0px;
+    }
+    10% {
+        left: 20px;
+    }
+    20% {
+        right: 10px;
+    }
+    40% {
+        right: 50px;
+    }
+    50% {
+        left: 50px;
+    }
+    60% {
+        left: 20px;
+    }
+    70% {
+        right: 20px;
+    }
+    80% {
+        top: 20px;
+    }
+    90% {
+        left: 50px;
     }
     100% {
         right: 60px;
