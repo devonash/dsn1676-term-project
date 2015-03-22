@@ -287,10 +287,10 @@ a:link {
         left: 10px;
     }
     40% {
-        right: 50px;
+        right: 20px;
     }
     50% {
-        left: 50px;
+        left: 20px;
     }
     60% {
         left: 20px;
@@ -470,10 +470,10 @@ a:link {
         left: 10px;
     }
     40% {
-        right: 50px;
+        right: 20px;
     }
     50% {
-        left: 50px;
+        left: 20px;
     }
     60% {
         left: 20px;
