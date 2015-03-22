@@ -192,7 +192,7 @@ a:link {
     background-size: cover;
     width: 340px;
     height: 300px;
-    margin: 0 auto 0;
+    margin: 0 auto 4em;
 }
 
 .three {
@@ -233,9 +233,6 @@ a:link {
     -webkit-animation: egg-fry 1s linear;
     animation: egg-fry 1s linear;
 }
-
-
-
 
 @media only screen and (min-width: 25em) {
     
