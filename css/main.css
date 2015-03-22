@@ -137,7 +137,6 @@ img {
     position: absolute;
     z-index: 10;
     border: solid 1px;
-
     background-image: url(../img/egg.svg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -146,8 +145,6 @@ img {
     right: 25px;
 }
 
-
-
 .steam {
     position: absolute;
     border: solid 1px;
@@ -155,33 +152,26 @@ img {
     background-image: url(../img/steam.svg);
     background-repeat: no-repeat;
     background-size:cover;
-     width: 300px;
-    height: 200px;
-    top: 60px;
-}
-
-
-
-.spoon {
-    position: absolute;
-    z-index: 10;
-      background-image: url(../img/spoon.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
-     width: 300px;
+    width: 300px;
     height: 200px;
     top: 20px;
 }
 
-
-.break {
-    position: relative;
+.spoon {
+    position: absolute;
+    z-index: 10;
+    background-image: url(../img/spoon.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 300px;
+    height: 200px;
+    top: 20px;
 }
 
 .one {
     background: transparent url("../img/bowl.svg") no-repeat center top;
     position: relative;
-      background-repeat: none;
+    background-repeat: none;
     background-size: cover;
     width: 350px;
     height: 300px;
@@ -192,11 +182,11 @@ img {
 .two {
     background: transparent url("../img/coffee.svg") no-repeat center top;
     position: relative;
-      background-repeat: none;
+    background-repeat: none;
     background-size: cover;
-    width: 300px;
-    height: 400px;
-     margin: 0 auto 0;
+    width: 340px;
+    height: 300px;
+    margin: 0 auto 0;
 }
 
 .three {
@@ -204,9 +194,9 @@ img {
     position: relative;
     background-repeat: none;
     background-size: cover;
-    width: 400px;
-    height: 400px;
-     margin: 0 auto 0;
+    width: 320px;
+    height: 320px;
+    margin: 1em auto 0;
 }
 
 
