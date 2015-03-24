@@ -179,7 +179,7 @@ a {
 }
 
 .one {
-    background: transparent url("../img/bowl.svg") no-repeat center top;
+    background: transparent url("../img/smaller-bowl.svg") no-repeat center top;
     position: relative;
     background-repeat: none;
     background-size: cover;
