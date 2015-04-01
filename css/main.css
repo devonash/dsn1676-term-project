@@ -87,6 +87,8 @@ img {
 }
 
 .down {
+    background-image: url("../img/down-button.svg");
+    background-repeat: no-repeat;
     height: 50px;
     width: 50px;
     top: 370px;
@@ -98,6 +100,22 @@ img {
 }
 
 .down-arrow {
+    margin: 0 auto;
+    width: 50px;
+    position: relative;
+}
+
+.up {
+    background-image: url("../img/up-button.svg");
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    top: 370px;
+    display: block;
+    position: absolute;
+}
+
+.up-arrow {
     margin: 0 auto;
     width: 50px;
     position: relative;

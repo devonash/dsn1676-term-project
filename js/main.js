@@ -35,3 +35,7 @@ $egg.on('webkitAnimationEnd animationend', function () {
 });
 
 $('.navigation').localScroll();
+
+$('.down-arrow').localScroll();
+
+$('.up-arrow').localScroll();
