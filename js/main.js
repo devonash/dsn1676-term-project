@@ -33,3 +33,5 @@ $btnFry.on('click', function () {
 $egg.on('webkitAnimationEnd animationend', function () {
     $egg.removeClass('js-egg-fry');
 });
+
+$('.navigation').localScroll();
