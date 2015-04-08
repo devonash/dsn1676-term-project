@@ -240,6 +240,14 @@ a {
     background-color: #76dcf4;
 }
 
+.pancake {
+    padding: 4em;
+}
+
+#strawberries {
+    animation: berry-spin 5s linear;
+}
+
 .js-spoon-stir {
     -webkit-animation: spoon-stir 1s linear;
     animation: spoon-stir 1s linear;
@@ -508,4 +516,13 @@ a {
     }
 }
 
+@keyframes berry-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(100deg);
+    }
+}
+    
     
