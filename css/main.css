@@ -245,7 +245,9 @@ a {
 }
 
 #strawberries {
+    -webkit-animation: berry-spin 5s linear;
     animation: berry-spin 5s linear;
+    transform-origin: center center;
 }
 
 .js-spoon-stir {
@@ -407,6 +409,15 @@ a {
         right: 60px;
     }
 }
+
+@-webkit-keyframes berry-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(100deg);
+    }
+}
     
 @keyframes toast-move {
     
@@ -515,6 +526,8 @@ a {
         right: 60px;
     }
 }
+
+
 
 @keyframes berry-spin {
     0% {
