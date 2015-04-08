@@ -245,7 +245,7 @@ a {
 }
 
 #strawberries {
-    -webkit-animation: berry-spin 5s linear;
+    -webkit-animation: berry-spin 5s linear infinite;
     animation: berry-spin 5s linear infinite;
     transform-origin: center center;
 }
@@ -535,5 +535,4 @@ a {
         transform: rotate(100deg);
     }
 }
-    
-    
+      
