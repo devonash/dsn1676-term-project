@@ -10,6 +10,8 @@ var $steam = $('.steam');
 var $btnFry = $('.button-fry');
 var $egg = $('.egg');
 
+var $pancakeDiv = $('.pancake');
+
 $toggle.on('click', function () {
     $nav.toggleClass('js-nav-open');
 });
@@ -39,3 +41,7 @@ $('.navigation').localScroll();
 $('.down-arrow').localScroll();
 
 $('.up-arrow').localScroll();
+
+$pancakeDiv.waypoint(function () {
+    $pancakeDiv.toggleClass('js-active');
+}, {offset: '65%'});

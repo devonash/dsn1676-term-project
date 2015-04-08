@@ -244,7 +244,7 @@ a {
     padding: 4em;
 }
 
-#strawberries {
+.js-active #strawberries {
     -webkit-animation: berry-spin 5s linear infinite;
     animation: berry-spin 5s linear infinite;
     -webkit-transform-origin: center center;
