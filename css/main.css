@@ -246,7 +246,7 @@ a {
 
 #strawberries {
     -webkit-animation: berry-spin 5s linear;
-    animation: berry-spin 5s linear;
+    animation: berry-spin 5s linear infinite;
     transform-origin: center center;
 }
 
@@ -526,8 +526,6 @@ a {
         right: 60px;
     }
 }
-
-
 
 @keyframes berry-spin {
     0% {
