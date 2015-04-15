@@ -241,7 +241,9 @@ a {
 }
 
 .pancake {
-    padding: 4em;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 6em;
 }
 
 .js-active #strawberries {
@@ -265,43 +267,7 @@ a {
     animation: egg-fry 1s linear;
 }
 
-@media only screen and (min-width: 25em) {
-    
-    .toaster {
-        left: 8px;
-        width: 100%;
-        top: 300px;
-    }
-    
-    .toast {
-        width: 100%;
-        left: 10px;
-        top: 300px;
-        height: 5em;
-    }
-    
-    .trigger {
-        top: 350px;
-        right: 15px;
-    }
-    
-    .down {
-        top: 500px;
-    }
-    
-    .down-arrow {
-        margin: 0 auto;
-    }
-    
-    .breakfast {
-        font-size: 300%;
-    }   
-    .banner {
-        height: 100vh;
-    }
 
-    
-}
 
 @-webkit-keyframes toast-move {
     
@@ -535,5 +501,59 @@ a {
     100% {
         transform: rotate(100deg);
     }
+}
+
+@media only screen and (min-width: 25em) {
+    
+    .toaster {
+        left: 8px;
+        width: 100%;
+        top: 300px;
+    }
+    
+    .toast {
+        width: 100%;
+        left: 10px;
+        top: 300px;
+        height: 5em;
+    }
+    
+    .trigger {
+        top: 350px;
+        right: 15px;
+    }
+    
+    .down {
+        top: 500px;
+    }
+    
+    .down-arrow {
+        margin: 0 auto;
+    }
+    
+    .breakfast {
+        font-size: 300%;
+    }   
+    .banner {
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 38em) {
+    
+    .pancake {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .pancake {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    
 }
       
