@@ -258,6 +258,10 @@ footer {
     padding-top: 1em;
 }
 
+.video {
+    text-align: center;
+}
+
 #strawberry-group {
     transform: translate(1px, 1px);
 }
