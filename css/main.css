@@ -110,7 +110,6 @@ img {
     background-repeat: no-repeat;
     height: 50px;
     width: 50px;
-    top: 370px;
     display: block;
     position: absolute;
 }
@@ -231,7 +230,6 @@ a {
     z-index: 25;
     left: 145px;
     top: 300px;
-    background-color: green;
     border-radius: 10px;
     padding: 10px;
     padding-left: 20px;
@@ -244,13 +242,31 @@ a {
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+footer {
+    background-color: #00a6ce;
+    height: 100px;
+    padding-top: 2em;
+}
+
+.titles {
+    text-align: center;
+    font-weight: 600;
+    font-size: 170%;
+    padding-top: 1em;
+}
+
+#strawberry-group {
+    transform: translate(1px, 1px);
 }
 
 .js-active #strawberries {
     -webkit-animation: berry-spin 5s linear infinite;
     animation: berry-spin 5s linear infinite;
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
+    -webkit-transform-origin: 430px 430px;
+    transform-origin: 430px 430px;
 }
 
 .js-spoon-stir {
